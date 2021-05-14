@@ -1,13 +1,143 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Arial", Arial, monospace;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%); /*w3c*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  cursor: pointer;
 }
+/* tachyons elements to use */
+
+/* 
+ma - margin (spacing between other objects)
+pa - padding
+f3 - font size 3
+grow - when hovered upon grow to expand readibility
+br3 - border radius size 3
+shadow-5 - add a shadow around the border
+
+
+css
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.br2 {
+    border-radius: .25rem;
+}
+
+.br--top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.db {
+    display: block;
+}
+
+.dt {
+    display: table;
+}
+
+.dtc {
+    display: table-cell;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.mw5 {
+    max-width: 16rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.dark-gray {
+    color: #333;
+}
+
+.mid-gray {
+    color: #555;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.mt1 {
+    margin-top: .25rem;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mv4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tr {
+    text-align: right;
+}
+
+.f5 {
+    font-size: 1rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.measure {
+    max-width: 30em;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 30em) {
+    .pb3-ns {
+        padding-bottom: 1rem;
+    }
+
+    .ph3-ns {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .f4-ns {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .w-50-m {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .w-25-l {
+        width: 25%;
+    }
+}
+
+*/
